@@ -1,0 +1,15 @@
+.DS_Store
+/node_modules
+/packages/*/node_modules
+/packages/*/LICENSE
+lerna-debug.log
+.rtp2_cache
+.idea/*
+*.tsx/*.js
+*.tsx/*.js.map
+yarn-error.log
+yarn.lock
+/packages/**/src/**/demo
+.history/
+package-lock.json
+.umi/
