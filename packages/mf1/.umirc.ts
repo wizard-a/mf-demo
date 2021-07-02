@@ -10,6 +10,8 @@ export default defineConfig({
   fastRefresh: {},
   // publicPath:'//localhost:3000/',
   webpack5: {},
+  // dynamicImport:{},
+  mfsu:{},
   chainWebpack(memo) {
     memo.output.publicPath('auto');
     memo

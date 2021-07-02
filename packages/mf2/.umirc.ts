@@ -10,6 +10,7 @@ export default defineConfig({
   fastRefresh: {},
   webpack5: {},
   dynamicImport:{},
+  // mfsu:{},
   chainWebpack(memo) {
     memo
       .plugin('mf')
