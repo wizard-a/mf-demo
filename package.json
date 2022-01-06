@@ -7,6 +7,7 @@
   "scripts": {
     "start:mf1": "cd packages/mf1 && yarn start",
     "start:mf2": "cd packages/mf2 && yarn start",
+    "start:micro": "cd packages/micro && yarn start",
     "build:mf1": "cd packages/mf1 && yarn build",
     "build:mf2": "cd packages/mf2 && yarn build"
   },

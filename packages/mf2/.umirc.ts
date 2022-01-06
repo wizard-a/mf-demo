@@ -11,6 +11,9 @@ export default defineConfig({
   webpack5: {},
   dynamicImport:{},
   // mfsu:{},
+  qiankun: {
+    master: {},
+  },
   chainWebpack(memo) {
     memo
       .plugin('mf')
