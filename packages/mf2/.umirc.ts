@@ -22,7 +22,9 @@ export default defineConfig({
         remotes: {
           mf1: "mf1@//localhost:3000/remoteEntry.js"
         },
+        // shared: { react: { singleton: true }, "react-dom": { singleton: true } },
         shared: { react: { eager: true }, "react-dom": { eager: true } },
+
       }])
   },
 });

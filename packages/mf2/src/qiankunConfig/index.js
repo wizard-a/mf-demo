@@ -24,6 +24,7 @@ const generateConfig = (entryPrefix) => {
           ? `${entryPrefix}/${item.name}`
           : `//localhost:${item.port}`,
       });
+      window.document.h = history;
     }
   });
 

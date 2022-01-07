@@ -12,15 +12,15 @@ export default defineConfig({
   qiankun: {
     slave: {},
   },
-  dynamicImport:{},
+  dynamicImport: {},
   // mfsu:{},
   chainWebpack(memo) {
     memo
       .plugin('mf')
       .use(ModuleFederationPlugin, [{
-        name: "mf3",
+        name: "mf2",
         remotes: {
-          mf21: "mf1@//localhost:3000/remoteEntry.js"
+          mf1: "mf1@//localhost:3000/remoteEntry.js"
         },
         shared: { react: { eager: true }, "react-dom": { eager: true } },
       }])
